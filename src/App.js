@@ -1,10 +1,9 @@
-import MyList from './greeting.js';
-
+import AddPersonForm from './addpersonform.js';
 
 function App() {
   return (
     <div>
-      <MyList/>
+      <AddPersonForm/>
     </div>
   );
 }
