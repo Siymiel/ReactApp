@@ -19,6 +19,7 @@ function AddPersonForm(){
     </form>);
 }
 
+
 function PeopleList(props){
     const arr = props.data
     const listItems = arr.map((val, index) => <li key={index}>{val}</li>);
@@ -43,7 +44,7 @@ function ContactManager(props){
     </div>);
 }
 
-const contacts = ["Samuel Kinuthia", "Rai Omido", "John Kiega"];
+const contacts = ["Samuel Kinuthia", "Rai Omido", "John Kiega", "Joshua Omido"];
 
 ReactDOM.render(
     <ContactManager data={contacts}/>, 
