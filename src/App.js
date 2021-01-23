@@ -1,9 +1,10 @@
-import AddPersonForm from './addpersonform.js';
+import Counter from './Counter';
+
 
 function App() {
   return (
-    <div>
-      <AddPersonForm/>
+    <div id="root">
+      <Counter/>
     </div>
   );
 }
